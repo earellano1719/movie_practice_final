@@ -1,0 +1,14 @@
+.App{
+    display: grid;
+}
+
+.Navbar{
+    height: 75px;
+    background-color: darkblue;
+}
+
+.Navbar :any-link{
+    font-size: 20px;
+    color: white;
+    
+}

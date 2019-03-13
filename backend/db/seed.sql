@@ -17,7 +17,7 @@ CREATE TABLE genres (
 
 CREATE TABLE ratings (
     id SERIAL PRIMARY KEY,
-    stars INT NOT NULL,
+    stars INT NOT NULL CHECK (stars <= 5), 
     movie_id INT REFERENCES movies(id) 
 );
 
